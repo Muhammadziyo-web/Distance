@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="mx-auto text-center my-3">Kim birinchi borishga!</h1>
+    <div class="row w-50 d-flex justify-content-between mx-auto my-5 align-items-center">
+        <p class="col-2">Masofa</p>
+        <input type="number" class="col-6" placeholder="KM" id="distanse">
+        <button class="col-2 btn btn-primary" onclick="result()">Hisobla</button>
+    </div>
+    <div class="container row gap-5 mx-auto " style="height:300px ;">
+
+        <div class="card col d-flex justify-content-between align-items-center p-5">
+            <img src="./img/icon-human-2-removebg-preview.png" alt="img" class="w-50">
+            <h3>Piyoda</h3>
+            <p id="human"></p>
+        </div>
+
+        <div class="card col d-flex justify-content-between align-items-center p-5">
+            <img src="./img/free-bike-icon-27-removebg-preview.png" alt="img" class="w-50">
+            <h3>Velosiped</h3>
+            <p id="bike"></p>
+        </div>
+
+        <div class="card col d-flex justify-content-between align-items-center p-5">
+            <img src="./img/images-removebg-preview (1).png" alt="img" class="w-50">
+            <h3>Mashina</h3>
+            <p id="car"></p>
+        </div>
+
+        <div class="card col d-flex justify-content-between align-items-center p-5">
+            <img src="./img/airplane-icon-png-4-removebg-preview.png" alt="img" class="w-50">
+            <h3>Samolyot</h3>
+            <p id="plane"></p>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
